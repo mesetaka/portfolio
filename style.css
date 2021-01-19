@@ -1,0 +1,162 @@
+/*----------------
+共通
+----------------*/
+body{
+    font-family: 'IBM Plex Sans','Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #222525;
+    background-color:#f8f5f2;
+}
+
+.title{
+    text-align: center;
+    font-size: 32px;
+}
+
+h3{
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+p{
+    margin: 10px 0 40px 0;
+}
+
+section{
+    margin: 60px 0 60px 0;
+}
+
+table{
+    margin: 0 0 40px 0;
+}
+
+td{
+    padding: 5px 40px 5px 5px;
+}
+
+/*----------------
+header
+----------------*/
+.header{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+h1{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+li{
+    padding: 16px;
+    text-align: center;
+}
+
+li a{
+    color:#222525;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header_menu{
+        width: 100%;
+    }
+
+    ul{
+        padding: 0;
+    }
+}
+
+/*----------------
+profile
+----------------*/
+.profile_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile_area{
+        width: 100%;
+    }
+}
+
+
+/*----------------
+skill
+----------------*/
+.skill_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .skill_area{
+        width: 100%;
+    }
+}
+
+
+/*----------------
+works
+----------------*/
+.works_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .works_area{
+        width: 100%;
+    }
+}
+
+
+/*----------------
+contact
+----------------*/
+.contact_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_area{
+        width: 100%;
+    }
+}
+
+
+/*----------------
+footer
+----------------*/
+footer{
+    text-align: center;
+}
